@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>form</title>
+<link rel="stylesheet" type="text/css" href="p1.css"/>
+</head>
+<body>
+<script>
+//confirm("Do you want to proceed");
+function effect()
+{
+var x=document.getElementById("p1");
+x.style.backgroundColor="blue";
+}
+</script>
+<form action="some file.php" method="get">
+<h1 align="center" style="background-color:cyan;border-radius:4px;">FORM</h1>
+<table>
+<h3 id="a1">personal Details</h3>
+<tr>
+<td>name</td>
+<td>first name</td>
+<td><input type="text" name="student"/></td>
+<td>Last name</td>
+<td><input type"text" name="student"/></td>
+</tr>
+<tr>
+<td>father's name</td>
+<td>first name</td>
+<td><input type="text" name="father"/></td>
+<td>last name</td>
+<td><input type="text" name="father"/></td>
+</tr>
+<tr>
+<td>gender</td>
+<td><input type="radio" name="gender"/>M
+    <input type="radio" name="gender"/>F
+</td>
+</tr>
+<tr>
+<td>physically chalanged</td>
+<td><select>
+    <option>no</option>
+    <option>50% disability</option>
+    <option>80% disability</option>
+    </select>
+</td>
+</tr>
+</table>
+<h3 id="a1">acadmic details</h3>
+<table>
+<tr>
+<td>name of high school</td>
+<td><input type="text" name="percentage"/></td>
+</tr>
+<tr>
+<td>board</td>
+<td><select>
+    <option>CBSE</option>
+    <option>ICSE</option>
+    <option>Bihar board</option>
+    </select>
+<tr>
+<td>pearcentage in high school</td>
+<td><input type="text" name="percentage"/></td>
+</tr>
+<tr>
+<td>name of secondary school</td>
+<td><input type="text" name="percentage"/></td>
+</tr>
+<tr>
+<td>board</td>
+<td><select>
+    <option>CBSE</option>
+    <option>ICSE</option>
+    <option>Bihar board</option>
+    </select>
+<tr>
+<td>pearcentage in high school</td>
+<td><input type="text" name="percentage"/></td>
+</tr>
+<tr>
+<td>improvement</td>
+<td><input type="radio" name="improvement"/>yes
+    <input type="radio" name="improvement"/>no</td>
+</table>
+<h3 id="a1">contact details</h3>
+<table>
+<tr>
+<td>village</td>
+<td><input type="text" name="contact"/></td>
+<td>district</td>
+<td><input type="text" name="contact"/></td>
+</tr>
+<tr>
+<td>city<id>
+<td><input type="text" name="contact"/></td>
+<td>pin code</td>
+<td><input type="text" name="contact"/></td>
+</tr>
+</table></br></br></br></br>
+<input id="p1" type="checkbox" name="checkbox" onmouseover="effect()" />Are you ready to accpt all terms and conditions
+<script>
+//alert("checkbox missing");
+</script>
+
+<table align="center">
+<tr>
+<td><input type="submit" name="submit"/></td>
+<td><input type="reset" /></td>
+</tr>
+</table>
+
+
+
+</form>
+</body>
+</html>
+
+
